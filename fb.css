@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(240,242,244,255);
+}
+.fb-login-up{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 100px;
+}
+#highlight{
+    color: rgba(24,119,242,255);
+    font-size: 4rem;
+}
+#text{
+    font-size: 1.8rem;
+}
+form{
+    width: 360px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+input{
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#username{
+    margin-top: 20px;
+}
+#password{
+    margin-bottom: 2px;
+}
+#log-in-button{
+    width: 325px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(24,119,242,255);
+}
+a{
+    text-decoration: none;
+    color: rgba(24,119,242,255);
+    font-size: 1rem;
+}
+#loginhr{
+    width: 320px;
+    border-radius: 10px;
+    color: rgba(240,242,244,255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sign-up-button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background-color: rgba(67,183,42,255);
+}
+#specialline{
+    display: grid;
+    text-align: center;
+}
+.fb-login-down{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.fb-login-down a{
+    color: grey;
+}
+#activelanguage{
+    text-decoration: underline;
+}
+#languages, #additionallinks a{
+    text-align: left;
+}
+#line{
+    width: 100%;
+}
+#copyright{
+    margin-bottom: 100px;
+}
